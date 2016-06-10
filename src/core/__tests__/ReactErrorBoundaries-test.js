@@ -379,7 +379,6 @@ describe('ReactErrorBoundaries', function() {
       'error handled',
       'BrokenUnmount is attempting to unmount',
       'BrokenUnmount is attempting to unmount',
-      'BrokenUnmount is attempting to unmount',
       'Box renderError',
     ]);
     ReactDOM.unmountComponentAtNode(container);
@@ -389,7 +388,6 @@ describe('ReactErrorBoundaries', function() {
       'Box render',
       'BrokenUnmount is attempting to unmount',
       'error handled',
-      'BrokenUnmount is attempting to unmount',
       'BrokenUnmount is attempting to unmount',
       'BrokenUnmount is attempting to unmount',
       'Box renderError',
